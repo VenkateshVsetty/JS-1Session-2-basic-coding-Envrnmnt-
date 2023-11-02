@@ -1,4 +1,4 @@
-Problem Description   (Two values(a === b)..)
+Problem Description  (a===b)
 You are given two numbers a and b as arguments. You have to implement the function isEqual that will return true if the numbers are equal, else return false.
 
 -------Hint: Use comparison operator (===).
@@ -56,6 +56,14 @@ module.exports = isEqual;
 
 Console Output
 Sample test case for input a = 3 and b = 3 passed!
+
+Testcase 1 - Input: -1,-1 Output: true
+Testcase 2 - Input: 0,0 Output: true
+Testcase 3 - Input: 100,100 Output: true
+Testcase 4 - Input: 2000000,2000000 Output: true
+Testcase 5 - Input: 3,4 Output: false
+Testcase 6 - Input: 89,11 Output: false
+Testcase 7 - Input: 99,-1 Output: false
 
 
 
