@@ -1,0 +1,56 @@
+Problem Description
+You are given a number a as an argument. You have to implement the function findCube that will return the cube of that number. Cube of a number basically means the number is multiplied by itself thrice.
+
+---->Hint: Use multiplication operator (*).
+
+Sample Input
+3
+
+Sample Output
+27
+
+---->Explanation
+     Cube of 3 would be 3 x 3 x 3 = 27
+
+
+****6 Step Strategy to solve problems*****
+Use the 6 step strategy to solve any problem
+
+1. Understand the problem
+2. Design test data/test cases (i.e. input and expected output)
+3. Derive the solution (write pseudo code for the solution)
+4. Test the solution (do a dry run of the pseudo code for the test data and confirm it works)
+5. Write the program/code (using JavaScript here)
+6. Test the code (debug any syntax errors and logical errors)
+
+
+--------------------Code Of Program------------------------------------------------
+
+/**
+ * @param {number} a
+ * @return {number}
+ */
+function findCube(a) {
+    // You only need to implement this function.
+    // CRIO_SOLUTION_START_MODULE_ES6_FOUNDATIONS
+    return a * a * a;
+    // CRIO_SOLUTION_END_MODULE_ES6_FOUNDATIONS
+}
+
+
+if (findCube(2) !== 8)
+    console.log("Test fails: Expected 8 for input a = 2");
+else
+    console.log("Sample test case for input a = 2 passed!");
+
+
+module.exports = findCube;
+
+----------------output----------------------------
+
+Testcase 1 - Input:-99 Output:-970299
+Testcase 2 - Input:0 Output:0
+Testcase 3 - Input:1 Output:1
+Testcase 4 - Input:11 Output:1331
+Testcase 5 - Input:3 Output:27
+Testcase 6 - Input:5 Output:125
