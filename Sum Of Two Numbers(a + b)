@@ -1,0 +1,67 @@
+Problem Description
+You are given two numbers a and b as arguments. You have to implement the function sumOfTwoNumbers which will return the sum of these two numbers.
+
+----->Hint: Use addition operator (+).
+
+----->Hint: Use a new variable which can be used to store and return the sum.
+
+Sample Input
+89, 11
+
+Sample Output
+100
+
+>>>Explanation
+   We get 89 + 11 = 100
+
+
+6 Step Strategy to solve problems
+Use the 6 step strategy to solve any problem
+
+1. Understand the problem
+2.Design test data/test cases (i.e. input and expected output)
+
+Derive the solution (write pseudo code for the solution)
+
+Test the solution (do a dry run of the pseudo code for the test data and confirm it works)
+
+Write the program/code (using JavaScript here)
+
+Test the code (debug any syntax errors and logical errors)
+
+----------Code of the Program----------------
+
+  /**
+ * @param {number} a
+ * @param {number} b
+ * @return {number}
+ */
+function sumOfTwoNumbers(a, b) {
+    // You only need to implement this function.
+    // CRIO_SOLUTION_START_MODULE_ES6_FOUNDATIONS
+    var sum = a + b;
+    return sum;
+    // CRIO_SOLUTION_END_MODULE_ES6_FOUNDATIONS
+}
+
+if (sumOfTwoNumbers(1,2) !== 3)
+    console.log("Test fails: Expected 3 for input a = 1 and b = 2");
+else
+    console.log("Sample test case for input a = 1 and b = 2 passed!");
+
+module.exports = sumOfTwoNumbers;
+
+--------------OUTPUT---------------------
+
+Testcase 1 - Input: -99,-1 Output: -100
+Testcase 2 - Input: -99,1 Output: -98
+Testcase 3 - Input: 0, 1980 Output: 1980
+Testcase 4 - Input: 100,566 Output: 666
+Testcase 5 - Input: 1999999,1 Output: 2000000
+Testcase 6 - Input: 4,3 Output: 7
+Testcase 7 - Input: 89,11 Output: 100
+Testcase 8 - Input: 99,-1 Output: 98
+
+
+
+
