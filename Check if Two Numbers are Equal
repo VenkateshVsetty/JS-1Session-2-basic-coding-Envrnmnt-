@@ -1,0 +1,66 @@
+Problem Description   (Two values(a === b)..)
+You are given two numbers a and b as arguments. You have to implement the function isEqual that will return true if the numbers are equal, else return false.
+
+-------Hint: Use comparison operator (===).
+-------Hint: Comparison operators return a boolean value. Use a new variable which can be used to store and return the result.
+-------Hint: You can also use "if else" to solve this problem.
+
+
+----> Sample Input
+      89, 11
+
+---->Sample Output
+     false
+
+
+Explanation
+89 is not equal to 11, so return false.
+
+
+>>>6 Step Strategy to solve problems
+   Use the 6 step strategy to solve any problem
+
+1. Understand the problem
+2. Design test data/test cases (i.e. input and expected output)
+3. Derive the solution (write pseudo code for the solution)
+4. Test the solution (do a dry run of the pseudo code for the test data and confirm it works)
+5. Write the program/code (using JavaScript here)
+6. Test the code (debug any syntax errors and logical errors)
+
+-----------------Test case of Program-----------------------------
+
+
+/**
+ * @param {number} a
+ * @param {number} b
+ * @return {boolean}
+ */
+
+function isEqual(a, b) {
+
+function isEqual(a, b) {
+    // You only need to implement this function.
+    // CRIO_SOLUTION_START_MODULE_ES6_FOUNDATIONS
+    var isEqual = a === b;
+    return isEqual;
+    // CRIO_SOLUTION_END_MODULE_ES6_FOUNDATIONS
+}
+
+if (isEqual(3,3) !== true)
+    console.log("Test fails: Expected true for input a = 3 and b = 3");
+else
+    console.log("Sample test case for input a = 3 and b = 3 passed!");
+module.exports = isEqual;
+
+---------------------------OUTPUT---------------------------------
+
+Console Output
+Sample test case for input a = 3 and b = 3 passed!
+
+
+
+
+
+
+
+
