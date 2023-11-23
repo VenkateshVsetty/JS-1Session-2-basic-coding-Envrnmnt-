@@ -1,0 +1,37 @@
+Problem Description
+
+You are given three numbers a, b and c as arguments. You have to implement the function isDescending that will return true only if the first number is greater than the second number AND the second number is greater than the third number. Else, return false.
+   Hint: This is a combination of comparison operator and logical operator.
+
+ ----- Sample Input
+        10, 9, 7
+
+------Sample Output
+        true
+Explanation
+True, since 10 is greater than 9 and 9 is greater than 7.
+
+  ____________Case operator for Code_______________
+
+  /**
+ * @param {number} a
+ * @param {number} b
+ * @param {number} c
+ * @return {boolean}
+ */
+function isDescending(a, b, c) {
+    // You only need to implement this function.
+    // CRIO_SOLUTION_START_MODULE_ES6_FOUNDATIONS
+    
+     return (a > b) && (b > c);
+   
+    // CRIO_SOLUTION_END_MODULE_ES6_FOUNDATIONS
+}
+
+if (isDescending(3, 2, 1) !== true)
+    console.log("Test fails: Expected true for input a = 3, b = 2 and c = 3");
+else
+    console.log("Sample test cases for input a = 3, b = 2 and c = 1 passed!");
+
+module.exports = isDescending;
+  
